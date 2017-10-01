@@ -296,10 +296,7 @@ products = [
         "flavor-nutty"
       ],
       "diet": [
-        "diet-lowcalorie",
-        "diet-lowcarbs",
-        "diet-lowsugar",
-        "diet-lowfat"
+        "diet-lowcholesterol"
       ],
       "restrictions": [
         "restrictions-glutenfree",
