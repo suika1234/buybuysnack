@@ -1,0 +1,70 @@
+<html>
+  <head>
+      <title>Buy Buy Snack</title>
+      <link rel="stylesheet" href="bootstrap.min.css"/>
+      <link rel="stylesheet" href="style.css?v=0.0.2"/>
+      <link rel="stylesheet" href="animate.css?v=0.0.1"/>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <center>
+      <a href="http://buybuysnack.com/" > <img src="icon.png" align="center" style="width:500;height:149;" class="fadeInDown animated"/></a>
+    </center>
+    <div id="outer" class="text-center">
+      <div id="inner">
+        <div id="intro">
+          <p id="shortdescription"></p>
+          <p id="description"></p>
+          <button id="takethequiz" class="button" style="vertical-align:middle">
+            <span class="next">Take the Quiz</span>
+          </button>
+        </div>
+
+        <div id="questions" style="display:none">
+          <h3 id="question"></h3>
+
+          <div class="panel-body">
+              <div id="options" class="funkyradio">
+              </div>
+          </div>
+
+          <div class="form-footer panel-footer">
+            <button id="previous-button" class="button pull-left">
+              <span class="previous">Previous</span>
+            </button>
+            <button id="next-button" class="button pull-right">
+              <span class="next">Next</span>
+            </button>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="product-title"></div>
+
+          <table id="product-table" class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_contents">
+        Visit my blog at <a target="blank" href="https://ephlabo.wordpress.com/">ephlabo.wordpress.com</a>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="questionnaire.js?v=0.0.1"></script>
+    <script src="products.js?v=0.0.1"></script>
+    <script src="script.js?v=0.0.1"></script>
+    <script src="ga.js"></script>
+  </body>
+</html>
